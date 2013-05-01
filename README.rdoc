@@ -1,0 +1,5 @@
+== Welcome to Qurriculum Education application  
+
+This is the application for Qurriculum for educational institutes. It is going to be amazing!
+
+Created by Pieter Moorman
