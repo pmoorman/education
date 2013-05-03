@@ -7,7 +7,7 @@ class PinsController < ApplicationController
 
   def index
     # Only show user's own qurriculums in the index
-    @pins = current_user.pins.all
+    @pins = current_user.pins.order("created_at desc")
 
     respond_to do |format|
       format.html # index.html.erb
